@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // //3.2.2. NWD
+    // let a, b;
+    // a = parseInt(prompt("Podaj a: "));
+    // b = parseInt(prompt("Podaj b: "));
+    //     while (a !== b) {
+    //         if (a > b) {
+    //             a = a - b;
+    //         } else  {
+    //             b = b -a; 
+    //         }
+    //     }
+    //     alert("Największy wspólny dzielnik to: " + a);
+
+//zad 1 
+var a = 5;
+var b = 10;
+var suma = a + b;
+var roznica = a - b;
+var iloczyn = a * b;
+var iloraz = a / b;
+
+document.write("Suma: " + suma + "<br>");
+document.write("Różnica: " + roznica + "<br>");
+document.write("Iloczyn: " + iloczyn + "<br>");
+document.write("Iloraz: " + iloraz + "<br>");
+document.write("<br><Br><br><Br>");
+
+//2
+
+var zmienna1 = 42; 
+var zmienna2 = "Tekst"; 
+var zmienna3 = true; 
+var zmienna4 = [1, 2, 3]; 
+
+document.write(zmienna1 + "<br>");
+document.write(zmienna2 + "<br>");
+document.write(zmienna3 + "<br>");
+document.write(zmienna4 + "<br>");
+document.write("<br><Br><br><Br>");
+
+//3
+var listaHtml = ["Wartość 1", "Wartość 2", "Wartość 3", "Wartość 4", "Wartość 5"];
+
+document.write("<ul>");
+for (var i = 0; i < listaHtml.length; i++) {
+  document.write("<li>" + listaHtml[i] + "</li>");
+}
+document.write("</ul>");
+document.write("<br><Br><br><Br>");
+
+//4
+var liczba = 6;
+var potega = Math.pow(liczba, 2);
+
+document.write("Liczba " + liczba + " do potęgi 2 wynosi: " + potega + "<br>");
+document.write("<br><Br><br><Br>");
+
+//5
+var dziesietny = 12;
+var osemkowy = 037;
+var szesnastkowy = 0xACB;
+var notacjaWykladnicza = 0.12e-2;
+
+document.write("Liczba dziesiętna: " + dziesietny + "<br>");
+document.write("Liczba ósemkowa: " + osemkowy + "<br>");
+document.write("Liczba szesnastkowa: " + szesnastkowy + "<br>");
+document.write("Notacja wykładnicza: " + notacjaWykladnicza + "<br>");
+document.write("<br><Br><br><Br>");
+
+//6
+var x = 9;
+var y = 9;
+var z = 20;
+
+document.write("Mnożenie: " + x + " x " + y + " = " + (x * y) + "<br>");
+
+
+
+
+
+</script>
+</body>
+</html>
